@@ -1,0 +1,45 @@
+body{
+    background-color: rebeccapurple
+}
+
+.calculator{
+    margin: -1% auto;
+        width: 290px;
+        padding: 10px;
+        border: 2px solid transparent;
+            background-color: blue;
+}
+.calculator .input,
+.calculator .result{
+background-color: white;
+    padding: 5px;
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+    height: 30px;
+}
+.calculator .Allbuttons{
+    display: flex;
+}
+.calculator .Allbuttons .buttons{
+display: grid;
+grid-template-columns: auto auto auto;
+}
+.calculator .Allbuttons button{
+width: 69px;
+    border: navajowhite;
+    margin: 2px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 25px;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.calculator .Allbuttons button:hover{
+ background-color: green;
+ color: white;
+}
+.calculator .Allbuttons .operation{
+
+    display: grid;
+}
